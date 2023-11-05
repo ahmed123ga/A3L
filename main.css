@@ -1,0 +1,47 @@
+section {
+    text-align: right;
+}
+
+h1 {
+    color: white;
+}
+
+section {
+    color: white;
+}
+
+h3 {
+    color: white;
+    text-align: right;
+}
+
+h3 {
+    text-align: right;
+}
+
+h4 {
+    color: red;
+    text-align: right;
+}
+
+p {
+    color: rgb(233, 233, 233);
+    text-align: right;
+}
+
+body {
+    background-image: url("ph.webp");
+    background-color: #e60000;
+    background-size: 160%;
+    background-repeat: no-repeat;
+}
+
+.raise {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.raise:hover {
+    transform: translateY(-10px);
+}
